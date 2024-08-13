@@ -6,5 +6,5 @@ class Config:
     REDIRECT_URI = os.getenv("REDIRECT_URI")
     AUTH_URL = "https://accounts.spotify.com/api/token"
     AUTH_URL_AUTHORIZE = "https://accounts.spotify.com/authorize"
-    SCOPES = "user-top-read"
+    SCOPES = "user-top-read playlist-modify-private"
 
