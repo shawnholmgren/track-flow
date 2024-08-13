@@ -28,3 +28,14 @@ A Python application that interacts with the Spotify API to search for artists a
    
    ```bash
    pip3 install -r requirements.txt
+4. **Set Up Environment Variables**
+   
+   Create a .env file in the root of the project directory. Replace `your_spotify_client_id` and `your_spotify_client_secret` with your actual Spotify API credentials.
+   ```env
+   CLIENT_ID=your_spotify_client_id
+   CLIENT_SECRET=your_spotify_client_secret
+## Troubleshooting
+
+- `ModuleNotFoundError`: Ensure all dependencies are installed. Check requirements.txt and use pip install -r requirements.txt.
+
+- Authentication Issues: Verify your .env file contains the correct Spotify API credentials.
