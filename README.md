@@ -1,6 +1,6 @@
 # Track Flow
 
-A Flask-based Python application that interacts with the Spotify API to search for artists, retrieve their top tracks, and access user profile and top artists information. This application uses Spotify's OAuth2 authorization to obtain an access token and make requests for artist and user data.
+Track Flow is a Flask-based Python application that interacts with the Spotify API to search for artists, retrieve their top tracks, and access user profile and top artists information. This application uses Spotify's OAuth2 authorization to obtain an access token and make requests for artist and user data.
 
 ## Features
 
